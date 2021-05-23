@@ -2,13 +2,14 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 import PlaceList from '../components/PlaceList';
+import './PlaceForm.css';
 
 const DUMMY_PLACES = [
     {
         id: 'p1',
         title: "Dolne Miasto",
         description: 'Najlepsze miejsce w wałczu!',
-        imageUrl: "https://lh3.googleusercontent.com/proxy/t_4E1gPJ-vaOHgZL9Ns7PJH4T1kC1nJ_HgP-FRQwUZU86g6feuT_7hpwQjimVb0Bu_-flVS7Fxe24kmTmSg6Lm9tgn0xERBO3Q",
+        imageUrl: "https://lh3.googleusercontent.com/proxy/njSxHhEShgkkAO5hcdm5Q4C8VUgnbg8SW9Tk3_Di9h3CPKXv-iUF_wNHsWH4Q8dHSdWzUgyfz54dZuFgGuFbDds-1PBjZ5ej4w",
         address: 'Dolne Miasto',
         location: {
             lat: 53.26420251530558,

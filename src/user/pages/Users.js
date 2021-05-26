@@ -4,7 +4,7 @@ import UsersList from '../components/UsersList';
 
 const Users = () => {
     const USERS = [{
-        id: 1,
+        id: 'u1',
         image: 'https://picsum.photos/500/500',
         name: 'Piter',
         places: 10,
